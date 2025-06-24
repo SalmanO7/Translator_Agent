@@ -82,3 +82,5 @@ if st.button("🔁 Translate"):
                 st.text_area("📄 Output", value=output, height=300)
             except Exception as e:
                 st.error(f"❌ An error occurred during translation:\n\n{str(e)}")
+
+
