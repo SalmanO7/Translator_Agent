@@ -79,7 +79,7 @@ if st.button("🔁 Translate"):
 
                 st.success("✅ Translation Complete!")
                 st.markdown("### 🌍 Translated Text:")
-                st.text_area("📄 Output", value=output, height=300)
+                st.text_area("📄 Output", value=output.final_output, height=300)
             except Exception as e:
                 st.error(f"❌ An error occurred during translation:\n\n{str(e)}")
 
